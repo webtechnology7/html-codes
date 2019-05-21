@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Heading tags</title>
+<title>Heaing tags</title>
 </head>
 <body>
    <h1><a href="https://www.netflix.com/in/" target="_blank">netflix</a></h1>
