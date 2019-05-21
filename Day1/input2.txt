@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>online registration form</title>
+</head>
+<body>
+	<h1>Registration</h1>
+<form>
+<label>Username:</label>
+<input type="Text"placeholder="Enter your Username"name=""><br><br>
+<label>Roll number:</label>
+<input type="num" placeholder="Enter your roll number"name=""><br><br>
+<label>E-mail</label>
+<input type="E-mail" name=""placeholder="Enter your mail-id"><br><br>
+<label>Mobile</label>
+<input type="Mobile" name=""placeholder="Enter your phone number"><br><br>
+<label>Gender:</label>
+<label>Male</label>
+<input type="radio" name="Gender">
+<label>Female</label>
+<input type="radio" name="Gender"><br><br>
+<textarea>Address</textarea><br><br>
+<label>Date</label>
+<input type="Date" name=""><br><br>
+<label>Time</label>
+<input type="Time" name=""><br><br>
+<select>Choose your college</select><br><br>
+<option>Aditya ngineering college</option>
+<option>Aditya college of Engineering</option>
+<select>Choose your branch</select>
+<option>CSE</option>
+<option>ECE</option>
+</select>
+</select>
+<input type="color" name="">
+<input type="range" name="">
+<input type="hidden" name="name"value="sivani">
+<input type="search" name="">
+<input type="reset" name="">&nbsp;&nbsp;
+<input type="submit" name="">
+</form>
+</body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>datatable</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>  
+    <script type="text/javascript">
+    	$(document).ready(function() {
+       $('#example').DataTable( {
+        dom: 'Bfrtip',
+        buttons: [
+        'copy', 'csv', 'excel', 'pdf', 'print'
+        ]
+    } );
+     } );
+ </script>
+ <link rel="style sheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css">
+ <link rel="style sheet" href="https://cdn.datatables.net/buttons/1.5.6/css/buttons.dataTables.min.css">
+ <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js"></script>
+ <script type="text/javascript" src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+ <script type="text/javascript" src="https://cdn.datatables.net/buttons/1.5.6/js/dataTables.buttons.min.js"></script>
+ <script type="text/javascript" src="https://cdn.datatables.net/buttons/1.5.6/js/buttons.flash.min.js"></script>
+ <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
+ <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/pdfmake.min.js"></script>
+ <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/vfs_fonts.js"></script>
+ <script type="text/javascript" src="https://cdn.datatables.net/buttons/1.5.6/js/buttons.html5.min.js"></script>
+ <script type="text/javascript" src="https://cdn.datatables.net/buttons/1.5.6/js/buttons.print.min.js"></script>
+</head>
+<body>
+<table id="example"class="table table-bordered table-striped table-hover">
+    <thead>
+        <tr>
+            <th>name</th>
+            <th>no</th>
+        </tr>
+        <tbody>
+            <tr>
+                <td>sivani</td>
+                <td>573</td>
+            </tr>
+             <tr>
+                <td>kumari</td>
+                <td>560</td>
+            </tr>
+             <tr>
+                <td>dvr</td>
+                <td>560</td>
+            </tr>
+            
+            <tr>
+                <td>shannu</td>
+                <td>545</td>
+            </tr>
+            <tr>
+                <td>abhi</td>
+                <td>596</td>
+            </tr>
+            <tr>
+                <td>shivani</td>
+                <td>560</td>
+            </tr>
+             <tr>
+                <td>naimisha</td>
+                <td>569</td>
+            </tr>
+            </tbody>
+             <tr>
+                <td>swathi</td>
+                <td>550</td>
+            </tr>
+            
+ </table>
+</body>
+</html>

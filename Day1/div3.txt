@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Food</title><style type="text/css">
+		main
+		{
+			height: 600px;
+			width: 100%;
+			background-color: red;
+			}
+		.sub1{
+			height: 100px;
+			width: 100%;
+			background-color: pink;
+			text-align: center;
+		}
+		.sub2{
+			height: 250px;
+			width: 100%;
+			background-color: lavender;
+		}
+		.sub21{
+			height: 250px;
+			width: 50%;
+			background-color: white;
+			float: left;
+
+
+		}
+		.sub22{
+			height: 250px;
+			width: 50%;
+			background-color: lavender;
+			float: left;
+		}
+		.sub3{
+			height: 250px;
+			width: 100%;
+			background-color: white;
+		}
+		.sub31{
+			height: 250px;
+			width: 50%;
+			background-color: lavender;
+			float:left;
+
+		}
+	    .sub32{
+	    	height: 250px;
+	    	width:50%
+	    	background-color:blue;
+	    	float: left;
+	    }
+	</style>
+</head>
+<body>
+<div class="main">
+
+	<div class="sub1">FOOD : Select your favourite cuisine
+	</div>
+	<div class="sub2">
+		<div class="sub21"><b><u>Indian</u></b><br><span><b>Thali:550/-</b></span><br><img src="thali.jpg"width="220px";height="220px"><span><b>Hyderabadi Haleem:200/-</b></span><input type="image" src="2.jpg" width="200px";height="200px";name="haleem">
+		</div>	
+		<div class="sub22">Italian
+		</div>
+	</div>
+	<div class="sub3">
+		<div class="sub31">Mexican
+	</div>
+	<div class="sub32">Chinese
+	</div>
+</div>
+</div>
+</body>
+</html>

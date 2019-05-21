@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>division tags</title>
+</head>
+<body>
+	<div>
+	<div style="background-color: red;height: 600px;width: 100%">
+		<div style="background-color: black;height: 150px;width: 100%;float:left">
+<span>Div 1</span>
+</div>
+<div>
+	<div style="background-color: yellow;height: 300px;width: 25%;float: left">
+	<span>Div3</span>
+	<div>
+	<div style="background-color: orange;height: 300px;width: 50%;float: left">
+	<span>Div4</span>
+</div>
+<div>
+	<div style="background-color: pink;height: 300px;width: 25%;float: left">
+	<span>Div5</span>
+	</div>
+	<div>
+	<div style="background-color: cyan;height: 150px;width: 100%">
+	<span>Div6</span>
+</div>
+</body>
+</html>

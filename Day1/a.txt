@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>athithi</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+</head>
+<body>
+	<div class="container">
+	<div class="row">
+		<div class="col-md-6" style="border: 1px solid black">
+        </div>
+        <div class="col-md-6" style="border: 1px solid black">
+        	<form>
+        		<div class="form-group col-md-6">
+        			<label>Name:</label>
+        			<input type="text" name="" class="form-control">
+        		</div>
+        		<div class="form-group col-md-6">
+        			<label>Password:</label>
+        			<input type="password" name="" class="form-control">
+        		</div>
+        	</form>
+        </div>
+    </div>
+	</div>
+
+</body>
+</html>

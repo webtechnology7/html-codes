@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Heading tags</title>
+</head>
+<body>
+   <h1><a href="https://www.netflix.com/in/" target="_blank">netflix</a></h1>
+   <h2>welcome</h2>
+   <h3>welcome</h3>
+   <h4>welcome</h4>
+   <h5>welcome</h5>
+   <h6>welcome</h6>
+   <p>welcome to <u>t</u><i>hub</i></p>
+   <p>aditya is planning to make this summer more fruitful for those who are so passionate about technology
+   </p>
+   <p>as you have already known that technical team<br>are going to conduct few classes during this summer we hope the students will make this codeheat program success</p></br>
+  <ul>
+  	<li>python</li>
+  	<li>java</li>
+  	<li>web technologies</li>
+  	<li>css</li>
+  </ul>
+  <ol>
+  	<li>meanstack</li>
+  	<li>angularjs</li>
+  <li>nodejs</li>
+  </ol>
+ <span><strong>good day</strong></span>
+ <sup>morning motivation</sup>
+ <sup>for you</sup>
+ <sub>everything happens for a reason</sub>
+</body>
+</body>
+</html>

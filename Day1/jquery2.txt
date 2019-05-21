@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jquery</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>  
+    <script>
+    	$(document).ready(function(){
+    		alert("working");
+    		$("button").click(function(){
+    			$(".a").fadeIn();
+    			$(".b").fadeIn("slow");
+    			$(".c").fadeIn(5000);
+
+    		})
+    	});
+    </script>
+    <style type="text/css">
+    	div{
+    		background-color: black;
+    		height:50px;
+    		width:100%;
+    		color: white;
+    		display: none;
+    	}
+    </style>
+</head>
+<body>
+	<div class="a" >
+		<p>show me</p>
+	</div>
+	<div class="b">
+		<p>result</p>
+	</div>
+	<div class="c">
+		<p>time</p>
+	</div>
+	<button>fade in</button>
+</body>
+</html>

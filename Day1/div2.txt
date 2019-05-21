@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>division tags</title>
+	<style type="text/css">
+		main
+		{
+			height: 600px;
+			width: 100%;
+			background-color: red;
+		}
+		.sub1{
+			height: 150px;
+			width: 100%;
+			background-color: red;
+		}
+		.sub2{
+			height: 300px;
+			width: 100%;
+			background-color: yellow;
+		}
+		.sub21{
+			height: 300px;
+			width: 25%;
+			background-color: pink;
+			float: left;
+		}
+		.sub22{
+			height: 300px;
+			width: 50%;
+			background-color: orange;
+			float: left;
+		}
+		.sub23{
+			height: 300px;
+			width: 25%
+			background-color:blue;
+			float: left;
+		}
+		.sub3{
+			height: 150px;
+			width: 100%;
+			background-color: green;
+		}
+	
+	</style>
+</head>
+<body>
+<div class="main">
+	<div class="sub1">
+	</div>
+	<div class="sub2">
+		<div class="sub21">
+		</div>
+		<div class="sub22">
+		</div>
+		<div class="sub23">
+		</div>
+	</div>
+	<div class="sub3">
+	</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>slides</title>
+	<title>animate</title>
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">  
+    <script>
+    	$(document).ready(function(){
+    		$("#a").dblclick(function(){
+                $(this).hide();
+                
+            });
+        });
+ 
+    </script>
+    <style type="text/css">
+    	#a{
+    	    padding: 5px;
+            text-align: center;
+    		background-color: blue;
+    		color:white;
+    	}
+    	#b{
+    	
+    		background-color: violet;
+    		color:white;
+    		padding: 15px;
+    	}
+        #c{
+        
+            background-color: violet;
+            color:white;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+     <div id="a">
+     	<!-- <button>click</button> -->
+     </div>
+     <div id="b">
+     	<p>sivani</p>
+     </div>
+      <div id="c">
+        <p>d</p>
+     </div>
+</body>
+</html>

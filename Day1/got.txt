@@ -1,0 +1,102 @@
+<!DOCTYPEhtml>
+<html>
+<head>
+	<title><h1 style="color:black"><b>Game of thrones</b></title>
+		<style type="text/css">
+		
+		h1:hover{
+			color:orange;
+			padding:30px ;
+		}
+		.main{
+			height: 600px;
+			width: 100%;
+			background-color: black;
+			text-align: center;
+		}
+		.sub1{
+			height: 100px;
+			width: 100%;
+			background-color: black;
+			text-align: center;
+
+		}
+		.sub2{
+			height: 250px;
+			width: 100%;
+			background-color: pink;
+		}
+		.sub21{
+			height: 250px;
+			width: 33%;
+			background-color: black;
+			float: left;
+			background-image: url('jon1.jpg');width: 33%;height: 250px;
+
+		}
+		.sub22{
+			height: 250px;
+			width: 33%;
+			background-color:black;
+			float: left;
+			background-image: url('arya1.jpg');width: 33%;height: 250px;
+		}
+		.sub23{
+			height: 250px;
+			width: 34%;
+			background-color: black;
+			float:left;
+			background-image: url('tyrion.jpg');
+		}
+		.sub3{
+			height: 250px;
+			width: 100%;
+			background-color: pink;
+			text-align: center;
+		}
+	    .sub31{
+			height: 250px;
+			width: 33%;
+			background-color: black;
+			float: left;
+			background-image: url('cersei12.jpg');
+		}
+		.sub32{
+			height: 250px;
+			width: 32%;
+			background-color:black;
+			float: left;
+			background-image: url('dan.jpg');
+		}
+		.sub33{
+			height: 250px;
+			width: 35%;
+			background-color: black;
+			float:left;
+			
+		}
+	</style>
+</head>
+<body>
+  <div class="main">
+		<div class="sub1"><h1 style="color:white;text-align: center";><b>Game of thrones</b><sub style="color: yellow";><i><br>You win or you die</i></sub></h1></div>
+	  <div class="sub2">
+		  <div class="sub21"><h1 style="color:black;text-align: bottom;"width="100px";height="100px"><br>Jon<br>
+    			<a href="https://gameofthrones.fandom.com/wiki/Jon_Snow;"style="color:yellow"><span><i>About</i></span></a>
+		  </h1></div>	
+			<div class="sub22"><h1 style="color:black;text-align: center;";width="100px";height="100px"><br>Arya<br>
+				<a href="https://gameofthrones.fandom.com/wiki/Arya_Stark;"style="color:yellow"><span><i>About</i></span></a></h1></div>
+		  <div class="sub23"><h1 style="color:black;text-align: center";width="100px";height="100px"><br>Tyrion<br>
+		  	<a href="https://gameofthrones.fandom.com/wiki/Tyrion_Lannister;"style="color:yellow"><span><i>About</i></span></a></h1></div>
+	</div>
+		<div class="sub3">
+			<div class="sub31"><h1 style="color:black;text-align: center;"width="100px";height="100px"><span><br>cersei<br></span>
+				<a href="https://gameofthrones.fandom.com/wiki/cersei_lannister;"style="color:yellow"><span><i>About</i></span></a></h1></div>
+			<div class="sub32"><h1 style="color:black;text-align: center;";width="100px";height="100px"><span><br>Daenerys<br></span>
+				<a href="https://gameofthrones.fandom.com/wiki/Daenerys_Targaryan;"style="color:yellow"><span><i>About</i></span></a></h1></div>
+		  <div class="sub33"><h1 style="color:black;text-align: center";width="100px";height="100px"><span><br>sansa<br></span>
+		  	<a href="https://gameofthrones.fandom.com/wiki/sansa_stark;"style="color:yellow"><span><i>About</i></span></a></h1></div>
+		</div>
+	</div>
+</body>
+</htm

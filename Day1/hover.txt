@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>slides</title>
+	<title>animate</title>
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">  
+    <script>
+    	$(document).ready(function(){
+                $("p").hover(function(){
+                    $(this).css("color","blue")
+
+                
+            });
+                
+        });
+ 
+    </script>
+    <style type="text/css">
+        p{
+            font-size: 21px;
+            font-weight: bold;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+           <div>
+             <p>text</p>
+            </div>
+</body>
+</html>

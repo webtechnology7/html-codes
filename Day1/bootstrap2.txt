@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>bootstrap</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+	<div class="container">
+	<div class="row">
+		<div class="col-md-12"style="text-align: center;color:white;background-image: url('1.jpg');height: 500px;background-size: cover;">
+			<form>
+
+	    <h1 style="color: green">Online form</h1>
+	    <div class="input-group">
+			<span class="input-group-addon">
+				<input type="text" class="form-control">
+			</span>
+		</div>
+	    <button style="background-color: white;color: green;border-radius: 100px">Username</button>
+	    <input type="Username" name="">
+        <div class="input-group-addon">%</div>
+	    <input type="percentageassword" style="color: white">
+	    <input type="submit" style="color: black">
+	    <label style="color: red"> user name </label>
+		</form>
+    </div>
+</div>
+<div class="container">
+	<div class="row"> 
+		<div class="col-md-12">
+			<title>tables</title>
+ <style type="text/css">
+ table,th,td{
+            border: 1px solid black;
+            table-layout: center;
+            border-radius: 10px;
+        }
+        td:hover{
+        font-style: bold;
+        background-color: blue;
+        padding-top: 25px;
+        color: white;
+         </style>
+         <table>
+        <thead>
+        <tr>
+        <th>sno</th>
+
+                                                <th>name</th>
+
+                                                <th>rollno</th>
+
+                                                <th>branch</th>
+
+                                                <th>percentage</th>
+                                                <style type="text-align:center"></style>
+
+                                </tr>
+
+                                </thead>
+
+                                <tbody>
+
+                                                <tr>
+
+                                                                <td>1</td>
+
+                                                                <td>vidya</td>
+
+                                                                <td>515</td>
+
+                                                                <td>CSE</td>
+
+                                                                <td>75</td>
+                                                                <style type="text-align:center"></style>
+
+                                                </tr>
+
+                                                <tr>
+
+                                                                <td>2</td>
+
+                                                                <td>sivani</td>
+
+                                                                <td>573</td>
+
+                                                                <td>CSE</td>
+
+                                                                <td>99</td>
+                                                                <style type="text-align:center"></style>
+
+ 
+
+                                                </tr>
+
+                                                <tr>
+
+                                                                <td colspan="100 ">result</td>
+
+                                                </tr>
+
+                                </tbody>
+
+                </table>
+
+</head>
+
+		</div>
+		
+</body>
+</html>
